@@ -22,8 +22,26 @@ function About() {
     }));
 
     const skillsSet = [
-        "Javascript", "HTML", "React", "Git", "CSS", "Material UI", "C#", "SQL Server", "Redes Computacionais"
-    ]
+        "C#",
+        ".NET",
+        "ASP.NET CORE",
+        "REST APIs",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "React",
+        "Material UI",
+        "Git",
+        "GitHub",
+        "Web APIs",
+        "SQL Server",
+        "CRUD Operations",
+        "MVC Architecture",
+        "Authentication Tokens",
+        "Computer Networks",
+        "TCP/IP",
+        "API Integration"
+      ];
 
     return (
         <>
@@ -33,54 +51,63 @@ function About() {
                 </Box>
                 <Grid container spacing={2} display="flex" justifyContent="center" pb={3}>
                     <Grid item xs={9} md={2.5}>
-                    <AnimationComponent moveDirection="right">
-                        <StyledCard variant="outlined">
-                            <WorkspacePremiumIcon />
-                            <Typography textAlign="center" fontWeight={600}>Experiencia</Typography>
-                            <Typography textAlign="center">1 Ano</Typography>
-                            <Typography textAlign="center">Auxiliar Técnico em Telecomunicações</Typography>
-                        </StyledCard>
+                        <AnimationComponent moveDirection="right">
+                            <StyledCard variant="outlined">
+                                <WorkspacePremiumIcon />
+                                <Typography textAlign="center" fontWeight={600}>Experiencia</Typography>
+                                <Typography textAlign="center">Outubro de 2025 até o Momento</Typography>
+                                <Typography textAlign="center">Desenvolver Fullstack</Typography>
+                            </StyledCard>
                         </AnimationComponent>
                     </Grid>
                     <Grid item xs={9} md={2.5}>
-                    <AnimationComponent moveDirection="left">
-                        <StyledCard variant="outlined">
-                            <SchoolIcon />
-                            <Typography textAlign="center" fontWeight={600}>Educação</Typography>
-                            <Typography textAlign="center">Cursando Bacharelado</Typography>
-                            <Typography textAlign="center">Engenharia da Computação</Typography>
-                        </StyledCard>
+                        <AnimationComponent moveDirection="right">
+                            <StyledCard variant="outlined">
+                                <WorkspacePremiumIcon />
+                                <Typography textAlign="center" fontWeight={600}>Experiencia</Typography>
+                                <Typography textAlign="center">1 Ano</Typography>
+                                <Typography textAlign="center">Auxiliar Técnico em Telecomunicações</Typography>
+                            </StyledCard>
+                        </AnimationComponent>
+                    </Grid>
+                    <Grid item xs={9} md={2.5}>
+                        <AnimationComponent moveDirection="left">
+                            <StyledCard variant="outlined">
+                                <SchoolIcon />
+                                <Typography textAlign="center" fontWeight={600}>Educação</Typography>
+                                <Typography textAlign="center">Cursando Bacharelado</Typography>
+                                <Typography textAlign="center">Engenharia da Computação</Typography>
+                            </StyledCard>
                         </AnimationComponent>
 
                     </Grid>
                 </Grid>
                 <Box pb={1}>
                     <Typography>
-
                         <p>
-                            Sou estudante de Engenharia da Computação na Faculdade Engenheiro Salvador Arena, atualmente no quarto semestre, com 19 anos e previsão de formatura em 2028. Estou em busca de uma oportunidade de estágio para aplicar meus conhecimentos na prática e crescer profissionalmente. Possuo inglês em nível avançado, o que me permite aprender com materiais técnicos internacionais e colaborar com equipes diversas.
+                            Sou estagiário de desenvolvimento de software Full Stack na ProClinic Software e estudante de Engenharia da Computação na Faculdade Engenheiro Salvador Arena, atualmente no quarto semestre, com previsão de formatura em 2028. Tenho 20 anos e busco constantemente evoluir tecnicamente aplicando na prática os conhecimentos adquiridos durante a graduação.
                         </p>
 
                         <p>
-                            Tenho grande interesse nas áreas de desenvolvimento web com React, programação em geral, banco de dados e qualidade de software (QA). Busco sempre evoluir em cada uma delas, com foco em boas práticas, organização de código e entrega de soluções funcionais.
+                            Possuo experiência no desenvolvimento de aplicações web utilizando C#, ASP.NET, JavaScript, HTML, CSS e React.js, atuando tanto no frontend quanto no backend. Também trabalho com construção de APIs REST, integração com banco de dados SQL Server e versionamento de código utilizando Git e GitHub.
                         </p>
 
                         <p id="Skills">
-                            Desde o início da graduação, venho desenvolvendo uma base sólida em lógica de programação, além de conhecimentos complementares em redes de computadores, o que me proporciona uma visão mais completa sobre a estrutura dos sistemas que construo.
+                            Durante minha formação venho consolidando uma base sólida em lógica de programação, algoritmos e Programação Orientada a Objetos, sempre com foco em boas práticas de desenvolvimento e organização de código.
                         </p>
 
                         <p>
-                            Sou movido pela curiosidade, pela vontade de aprender constantemente e pelo desafio de transformar ideias em soluções digitais reais. Neste portfólio, compartilho projetos, experiências e aprendizados que refletem meu desenvolvimento contínuo como futuro engenheiro e desenvolvedor.
+                            Tenho inglês em nível avançado e grande interesse em desenvolvimento de software, aprendizado contínuo e na construção de soluções digitais eficientes.
                         </p>
 
-                        <p >
+                        <p>
                             Seja bem-vindo(a)!
                         </p>
                     </Typography>
                 </Box>
-                <hr  />
-                <Box  pt={1} mb={3}>
-                    <Typography  variant="h3" textAlign="center" fontWeight={300}>Skills</Typography>
+                <hr />
+                <Box pt={1} mb={3}>
+                    <Typography variant="h3" textAlign="center" fontWeight={300}>Skills</Typography>
                 </Box>
                 <Box mb={5}>
                     <Grid container spacing={3} justifyContent="center">
@@ -94,7 +121,7 @@ function About() {
                     </Grid>
 
                 </Box>
-                 <hr/>
+                <hr />
             </Container>
         </>
     )

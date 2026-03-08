@@ -60,7 +60,7 @@ function Hero() {
                             Gustavo Kawaura
                         </Typography>
                         <Typography color="primary" variant="h2" gutterBottom>
-                            Estudante de Engenharia da Computação
+                            Desenvolver Fullstack
                         </Typography>
                         <Grid container spacing={2} display="flex" justifyContent="center" pt={2}>
                             <Grid size={{ xs: 12, md: 4 }} display="flex" justifyContent="center">
