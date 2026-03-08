@@ -1,4 +1,4 @@
-import { AppBar, MenuItem, Toolbar, styled } from "@mui/material";
+import { Toolbar, styled } from "@mui/material";
 
 function Creditos() {
 
